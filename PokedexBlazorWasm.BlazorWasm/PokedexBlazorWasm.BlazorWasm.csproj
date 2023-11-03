@@ -11,4 +11,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.13" PrivateAssets="all" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PokedexBlazorWasm.Data\PokedexBlazorWasm.Data.csproj" />
+    <ProjectReference Include="..\PokedexBlazorWasm.Services\PokedexBlazorWasm.Services.csproj" />
+    <ProjectReference Include="..\PokedexBlazorWasm.Models\PokedexBlazorWasm.Models.csproj" />
+  </ItemGroup>
+
 </Project>

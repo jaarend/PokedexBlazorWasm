@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexBlazorWasm.Data", "PokedexBlazorWasm.Data\PokedexBlazorWasm.Data.csproj", "{BD352204-0726-4A0A-A983-A70C89CEDF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexBlazorWasm.Models", "PokedexBlazorWasm.Models\PokedexBlazorWasm.Models.csproj", "{4B74A47C-2389-47DB-A258-011F5EF47B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexBlazorWasm.Services", "PokedexBlazorWasm.Services\PokedexBlazorWasm.Services.csproj", "{5D45A30E-ED75-493E-AB94-E68D0DDB98CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexBlazorWasm.BlazorWasm", "PokedexBlazorWasm.BlazorWasm\PokedexBlazorWasm.BlazorWasm.csproj", "{83E26ABD-D39B-4A92-9D2B-97454CB40DF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,23 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD352204-0726-4A0A-A983-A70C89CEDF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD352204-0726-4A0A-A983-A70C89CEDF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD352204-0726-4A0A-A983-A70C89CEDF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD352204-0726-4A0A-A983-A70C89CEDF4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B74A47C-2389-47DB-A258-011F5EF47B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B74A47C-2389-47DB-A258-011F5EF47B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B74A47C-2389-47DB-A258-011F5EF47B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B74A47C-2389-47DB-A258-011F5EF47B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D45A30E-ED75-493E-AB94-E68D0DDB98CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D45A30E-ED75-493E-AB94-E68D0DDB98CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D45A30E-ED75-493E-AB94-E68D0DDB98CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D45A30E-ED75-493E-AB94-E68D0DDB98CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E26ABD-D39B-4A92-9D2B-97454CB40DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E26ABD-D39B-4A92-9D2B-97454CB40DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E26ABD-D39B-4A92-9D2B-97454CB40DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E26ABD-D39B-4A92-9D2B-97454CB40DF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
